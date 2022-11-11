@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NUNITO";
+  /*Can be any text*/
+  src: local("NUNITO"),
+    url("./fonts/NUNITO.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NUNITOSANS";
+  /*Can be any text*/
+  src: local("NUNITOSANS"),
+    url("./fonts/NunitoSans-SemiBold.ttf") format("truetype");
+}
+
+
+
+@font-face {
+  font-family: "FUTURA21";
+  /*Can be any text*/
+  src: local("FUTURA21"),
+    url("./fonts/FUTURA21.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PROXIMALIGHT";
+  /*Can be any text*/
+  src: local("PROXIMALIGHT"),
+    url("./fonts/PROXIMALIGHT.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "NEWSBT";
+  /*Can be any text*/
+  src: local("NEWSBT"),
+    url("./fonts/NEWSBT.ttf") format("truetype");
+}
